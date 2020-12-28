@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "strict": false,
+        "module": "commonjs",
+        "target": "ES6",
+        "allowJs": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["/*"],
+            "@src/*": ["src/*"],
+            "@images/*": ["src/images/*"],
+            "@scenes/*": ["src/scenes/*"],
+            "@scripts/*": ["src/scripts/*"],
+            "@data/*": ["src/data/*"]
+        }
+    },
+    "include": [
+      "src/*.ts",
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+}
